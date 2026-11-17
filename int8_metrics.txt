@@ -1,0 +1,12 @@
+INT8 TFLITE RESULTS
+==================================================
+
+Accuracy: 0.999886
+Precision: 0.999950
+Recall: 0.999925
+F1 Score: 0.999937
+ROC-AUC: 1.000000
+PR-AUC: 1.000000
+Average inference: 0.012529 ms/sample
+Throughput: 79817.99 samples/sec
+Model size: 8.69 KB

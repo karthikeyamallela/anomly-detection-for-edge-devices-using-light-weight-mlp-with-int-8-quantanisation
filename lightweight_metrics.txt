@@ -1,0 +1,14 @@
+LIGHTWEIGHT MLP RESULTS
+==================================================
+
+Accuracy: 0.999909
+Precision: 0.999950
+Recall: 0.999950
+F1 Score: 0.999950
+ROC-AUC: 1.000000
+PR-AUC: 1.000000
+
+Average inference time: 0.005819 ms/sample
+Throughput: 171856.81 samples/sec
+Parameters: 4,385
+Model size: 81.53 KB

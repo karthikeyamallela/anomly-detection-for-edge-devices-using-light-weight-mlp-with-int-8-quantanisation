@@ -1,0 +1,14 @@
+BASELINE MLP RESULTS
+==================================================
+
+Accuracy: 0.999886
+Precision: 0.999925
+Recall: 0.999950
+F1 Score: 0.999938
+ROC-AUC: 0.999759
+PR-AUC: 0.999915
+
+Average inference time: 0.011493 ms/sample
+Throughput: 87009.28 samples/sec
+Parameters: 25,729
+Model size: 336.91 KB

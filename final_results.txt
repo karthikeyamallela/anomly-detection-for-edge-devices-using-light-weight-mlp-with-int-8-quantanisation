@@ -1,0 +1,75 @@
+
+============================================================
+FINAL PERFORMANCE RESULTS
+LIGHTWEIGHT EDGE AI ANOMALY DETECTION
+============================================================
+
+Dataset:
+N-BaIoT
+
+Input Features:
+115
+
+------------------------------------------------------------
+MODEL COMPARISON
+------------------------------------------------------------
+
+Metric                     Baseline    Lightweight    INT8
+------------------------------------------------------------
+Parameters                 25,729       4,385       4,385
+Model Size (KB)            336.91        19.65         8.69
+Accuracy (%)               99.99        99.99         99.99
+F1 Score (%)               99.99        100.00        99.99
+Inference (ms/sample)      0.011493   0.005819    0.012529
+Throughput (samples/sec)   87,009.28   171,856.81   79,817.99
+
+------------------------------------------------------------
+EDGE OPTIMIZATION
+------------------------------------------------------------
+
+Parameter Reduction:
+82.96%
+
+Baseline -> INT8 Model Size Reduction:
+97.42%
+
+Lightweight FP32 -> INT8 Size Reduction:
+55.78%
+
+Final INT8 Model Size:
+8.69 KB
+
+Final INT8 Parameters:
+4,385
+
+------------------------------------------------------------
+REAL-TIME DEMONSTRATION
+------------------------------------------------------------
+
+Samples processed:
+100
+
+Correct predictions:
+100
+
+Incorrect predictions:
+0
+
+Demonstration accuracy:
+100.00%
+
+------------------------------------------------------------
+CONCLUSION
+------------------------------------------------------------
+
+The lightweight neural network substantially reduces the
+computational footprint compared with the baseline MLP while
+maintaining approximately 99.99% detection accuracy.
+
+The model contains only 4,385 parameters and the INT8
+TensorFlow Lite deployment occupies only 8.69 KB.
+
+The results demonstrate the feasibility of deploying the
+anomaly detector on resource-constrained edge devices.
+
+============================================================
